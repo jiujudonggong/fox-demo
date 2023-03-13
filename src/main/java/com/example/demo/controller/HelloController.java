@@ -11,4 +11,10 @@ public class HelloController {
     public String hello(){
         return "world";
     }
+
+
+    @GetMapping("nihao")
+    public String nihao(){
+        return "bingx";
+    }
 }

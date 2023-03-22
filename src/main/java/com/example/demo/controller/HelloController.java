@@ -20,6 +20,6 @@ public class HelloController {
 
     @GetMapping("info")
     public String info(){
-        return "666";
+        return "test";
     }
 }

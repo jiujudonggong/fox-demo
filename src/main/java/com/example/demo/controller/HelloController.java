@@ -17,4 +17,9 @@ public class HelloController {
     public String nihao(){
         return "bingx";
     }
+
+    @GetMapping("info")
+    public String info(){
+        return "666";
+    }
 }
